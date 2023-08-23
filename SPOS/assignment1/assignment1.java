@@ -47,8 +47,8 @@ class SymbolTable {
 }
 
 class LiteralTable {
-    string val;
-    
+    String val;
+
 }
 
 public class assignment1 {
