@@ -40,15 +40,17 @@ class ConditionTable {
 class SymbolTable {
 	boolean location = false;
 	int value;
-	public SymbolTable(int value, boolean location) {
+	protected SymbolTable(int value, boolean location) {
 		this.value = value;
 		this.location = location;
 	}
 }
 
-class LiteralTable {
-    String val;
-
+protected class LiteralTable {
+	int val;
+	protected LiteralTable(String val) {
+		this.val = val;
+	}
 }
 
 public class assignment1 {
